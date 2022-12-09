@@ -28,7 +28,7 @@ const CreateContainer = (props) => {
         );
     }else {
       swal(
-          "User Created!",
+          "Data Created! (Check console)",
           "Title : " +
             props.getResponDataUser.title +
             " , Desc : " +

@@ -28,12 +28,12 @@ const EditContainer = (props) => {
       swal("Failed!", props.errorResponDataUser, "error");
     } else {
       swal(
-        "Data Updated!",
+        "Data Updated! (Check console)",
         "Title : " +
           props.getResponDataUser.title +
           " , Desc : " +
           props.getResponDataUser.description,
-        "success"
+        "success",
       );
     }
   }

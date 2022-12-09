@@ -1,15 +1,11 @@
-import React, { Component } from "react";
-import LineChart from './components/LineChart';
-import BarChart from './components/BarChart'
-import PieChart from './components/PieChart'
+import React from "react";
 import NavbarComponent from "./components/NavbarComponent";
-import JumbotronComponent from "./components/JumbotronComponent";
 import { BrowserRouter, Route } from "react-router-dom";
 import HomeContainer from "./containers/HomeContainer";
 import CreateContainer from "./containers/CreateContainer";
 import EditContainer from "./containers/EditContainer";
 import DetailContainer from "./containers/DetailContainer";
-import { Container } from "react-bootstrap";
+
 
 
 
@@ -18,8 +14,6 @@ const App = () => {
     return (
       <div>
         <NavbarComponent />
-        
-        {/* <JumbotronComponent /> */}
         <BrowserRouter>
           <Route path="/" exact component={HomeContainer} />
           <Route path="/create" exact component={CreateContainer} />
