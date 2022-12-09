@@ -59,7 +59,7 @@ function NavbarComponent(props) {
         <Navbar.Collapse id="basic-navbar-nav" isOpen={isOpen}>
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="https://github.com/reactstrap/reactstrap">Source</Nav.Link>
+            <Nav.Link href="https://github.com/ErgaAsDev/CRUD-redux">Source</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
